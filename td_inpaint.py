@@ -13,18 +13,6 @@ from PIL import Image, ImageDraw
 import string
 from inpaint_functions import format_prompt, to_tensor, add_tokens
 
-import torch
-import gradio as gr
-
-
-import numpy as np
-import time
-from transformers import CLIPTextModel, CLIPTokenizer
-from diffusers import AutoencoderKL, DDPMScheduler,UNet2DConditionModel
-from tqdm import tqdm
-from PIL import Image, ImageDraw
-import string
-from inpaint_functions import format_prompt, to_tensor, add_tokens
 
 #### import diffusion models
 text_encoder = CLIPTextModel.from_pretrained('JingyeChen22/textdiffuser2-full-ft-inpainting', subfolder="text_encoder").cuda().half()

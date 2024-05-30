@@ -1,0 +1,14 @@
+numpy
+regex
+tqdm
+opencv-python
+easyocr
+gradio==4.7.1
+setuptools==66.0.0
+datasets==2.11.0
+transformers==4.28.1
+accelerate==0.22.0 
+git+https://github.com/JingyeChen/diffusers_td2.git
+pillow==10.1.0
+sentencepiece
+torch==2.0.1
